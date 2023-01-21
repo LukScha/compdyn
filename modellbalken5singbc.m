@@ -1,6 +1,6 @@
 function [w] = modellbalken5singbc(ya,yb,parameters)
 %modellbalken5bc Randbedingungen für stetiges Homotopiebeispiel
-%   mit Fortsetzungsmethode
+%   mit Fortsetzungsmethode HALLO
 global q homvars;
 if (homvars.hom==0)
     bchom=parameters(1)-homvars.yalt(6);
